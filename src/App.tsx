@@ -6,13 +6,11 @@ import DataTable from './pages/Data';
 
 function App() {
   return (
-    <Router>
       <Routes>
         <Route path="/" element={<Onboarding />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/data" element={<DataTable />} />
       </Routes>
-    </Router>
   );
 };
 
